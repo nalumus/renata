@@ -1,0 +1,67 @@
+:root {
+  --dark-blue: #78AAC3;
+  --light-blue: #C4DEEE;
+  --medium-blue: #97C8D6;
+  --orange: #EEAB73;
+  --yellow: #F3CD86;
+  --peach: #F5A281;
+}
+
+@keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+  
+}
+
+@-webkit-keyframes fadeIn {
+  from {top: 20%; opacity: 0;}
+  to {top: 100; opacity: 1;}
+}
+
+#section2 .wrapper2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1000ms ease;
+  -webkit-animation: fadeIn 1000ms ease;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 5em;
+  letter-spacing: 3px;
+}
+
+.dark-blue-text {
+  color: var(--dark-blue);
+}
+
+.light-blue-text {
+  color: var(--light-blue);
+}
+
+.medium-blue-text {
+  color: var(--medium-blue);
+}
+
+.orange-text {
+  color: var(--orange);
+}
+
+.yellow-text {
+  color: var(--yellow);
+}
+
+.peach-text {
+  color: var(--peach);
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size:1.5em;
+}
