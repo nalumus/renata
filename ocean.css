@@ -1,0 +1,244 @@
+body{
+	background-color: rgb(42 120 178);
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+a{
+	color: white;
+}
+
+button{
+	margin-top: 50px;
+	width: 180px;
+	height: 45px;
+	border-radius: 22px;
+	background: none;
+	border-style: solid;
+	border-color: white;
+	border-width: 0.5px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	transition: 1s;
+}
+
+button:hover{
+	background: rgba(13, 72, 131, 0.5);
+}
+
+button:active{
+	background: white;
+	color: rgb(42 120 178);
+	font-weight: bolder;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+}
+
+#menuStyle{
+	padding: 3vh;
+}
+
+.nav-link{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: white;
+
+}
+
+#wrapper {
+	width: 100%;
+}
+
+#arrow, #mainPic, #section1, #section2{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+
+	display: flex; /*on budet otobrajatsa kak adaptivniy element,no ne v polne, mi zadaem emu svoi pravila*/
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;/*raspolozenie po osi*/
+	align-items: center; 
+	align-content: center;
+}
+
+#section1{
+	height: 100vh; /*Po visote ecrana*/
+	padding-top: 100px;
+		}
+
+#mainPic {
+	height: 380px;
+	width: 1000px;
+	}
+
+#arrow {
+	height: 100px;
+	width: 100px;
+	margin-top: 50px;
+		
+	}
+
+#section4{
+	height: 100vh; /*Po visote ecrana*/
+	background-color: #2a78b2;
+}
+
+#section2{
+	background-color: none;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	height: 100vh;
+	}
+
+#block{
+	width: 60%;
+}
+
+
+.col-sm {
+	height: 500px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+
+	display: flex; /*on budet otobrajatsa kak adaptivniy element,no ne v polne, mi zadaem emu svoi pravila*/
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start; /*raspolozenie po osi*/
+	align-items: center; 
+	align-content: center;
+
+}
+
+#cont1{
+	background-color: none;
+}
+
+#icon_1 {
+	width: 251px;
+	height: 251px;
+	background: url(images/coral.png)50% 50% no-repeat;
+	background-size: auto;
+	border-radius: 50%;
+
+}
+
+
+#icon_2 {
+	width: 251px;
+	height: 251px;
+	background: url(images/jelyfish.png)50% 50% no-repeat;
+	background-size: auto;
+	border-radius: 50%;
+
+
+}
+
+
+#icon_3 {
+	width: 251px;
+	height: 251px;
+	background: url(images/fish.png)50% 50% no-repeat;
+	background-size: auto;
+	border-radius: 50%;
+
+}
+
+.description {
+	width: 340px;
+	height: 210px;
+	background-color: none;
+}
+
+.description > p {
+	margin-top: 30px;
+}
+
+.description > h2 {
+	padding-top: 30px;
+	text-align: center;
+	color: white;
+}
+#cont2{
+	background-color: none;
+}
+#cont3{
+	background-color: none;
+}
+
+.grid {
+	width: 100%;
+	height: 100vh;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+
+	display: flex; /*on budet otobrajatsa kak adaptivniy element,no ne v polne, mi zadaem emu svoi pravila*/
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center; /*raspolozenie po osi*/
+	align-items: center; 
+	align-content: center;
+	display: -webkit-flex;
+}
+
+#oneShark{
+	width: 660px;
+	height: 600px;
+	background-image: url(images/waley.png);
+	background-size: cover;
+}
+
+#oneWaley {
+	width: 660px;
+	height: 600px;
+	background-image: url(images/waley.png);
+	background-size: cover;
+}
+
+#oneTurtle {
+	width: 660px;
+	height: 600px;
+	background-image: url(images/turtle.png);
+	background-size: cover;
+}
+.two > p, h2 {
+	text-align: left;
+	padding-top: 50px;
+}
+.two{
+	width: 438px;
+	height: 600px;
+	background-color: none;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+
+	display: flex; /*on budet otobrajatsa kak adaptivniy element,no ne v polne, mi zadaem emu svoi pravila*/
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start; /*raspolozenie po osi*/
+	align-items: flex-start; 
+	align-content: flex-start;
+	padding: 50px;
+}
+
+
